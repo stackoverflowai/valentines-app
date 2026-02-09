@@ -104,7 +104,7 @@ const App = () => {
   );
 
   return (
-    <div className="h-screen w-full bg-black text-white font-sans overflow-hidden select-none touch-none">
+    <div className="h-dvh min-h-dvh w-full bg-black text-white font-sans overflow-hidden select-none touch-none">
       {renderProgressBars()}
 
       {/* Slide Navigation Zones */}
